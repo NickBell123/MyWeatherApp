@@ -16,3 +16,20 @@ body{
     min-height: 100vh;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
 }
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+header input{
+    width: 100%;
+    max-width: 250px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+
+
+}
