@@ -28,8 +28,51 @@ header input{
     width: 100%;
     max-width: 250px;
     padding: 10px 15px;
-    border: none;
+    border: blue;
+    border-radius: 16px 16px 16px 16px;
     outline: none;
+    background-color: rgba(255, 255, 255, 0.8);
+   
+    color: #313131;
+    font-size: 20px;
+    font-weight: 100;
+}
 
+header input:focus {
+    background-color: rgba(255, 255, 255, 1);
+}
 
+main {
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 25px 25px 50px;
+}
+
+.location .city {
+    color: #fff;
+    font-size: 40px;
+   ;
+}
+
+.location .date {
+    color: #fff;
+    font-size: 20px;
+}
+
+.current .temp {
+    color: #fff;
+    font-size: 20px; 
+}
+
+.current .weather {
+    color: #fff;
+    font-size: 20px;  
+}
+
+.current .hi-low {
+    color: #fff;
+    font-size: 20px;
 }
