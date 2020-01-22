@@ -1,7 +1,7 @@
 
 const api = {
     key: "4dbaf49b84d9809469c0aa09d6b1cd0c",
-    baseURL: "http://api.openweathermap.org/data/2.5/",
+    baseURL: "https://api.openweathermap.org/data/2.5/",
     unsplashKey: "33cb424db5ad6ec2ecdb527c3ba4e6cf13af4599fc8f72b9b869eba3d1ec5028",
     unsplashURL:"https://api.unsplash.com/search/photos?"
 }
